@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0">
+<style>
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  html, body {
+    height: 100%;
+  }
+  html {
+    background: url(background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+  }
+  .card {
+    margin: auto;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    width: 320px;
+    height: 320px;
+
+  }
+  header {
+    height: 160px;
+  }
+  .avatar {
+    margin: auto;
+    display: block;
+    width: 75px;
+    height: 75px;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    border: 2px solid #fff;
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+            border-radius: 50%;
+  }
+  article {
+    height: 160px;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    border-bottom: 5px solid #55acee;
+  }
+  .about {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  h1 {
+    margin-bottom: 5px;
+    font-weight: normal;
+    font-family: "proxima-nova",sans-serif;
+    font-style: normal;
+    font-weight: 700;
+  }
+  p {
+    margin-bottom: 15px;
+    font-weight: normal;
+    font-family: "proxima-nova",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .icon {
+    margin: 0 5px;
+  }
+  .twitter {
+    color: #55acee;
+    background: url(twitter.svg) no-repeat center left;
+    background-size: 16px;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    text-indent: -99999px;
+  }
+  .plane {
+    color: #EAEAEC;
+    background: url(plane.svg) no-repeat center left;
+    background-size: 16px;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    text-indent: -99999px;
+  }
+</style>
+<head>
+  <title>philip brown &bull; i make stuff on the internets</title>
+</head>
+<body>
+  <div class="card">
+    <header>
+      <img class="avatar" src="philipbrown.jpg" alt="philip brown">
+    </header>
+    <article>
+      <div class="about">
+        <h1>philip brown</h1>
+        <p>i make stuff on the internets</p>
+        <a href="https://twitter.com/philipbrown" class="icon twitter">@philipbrown</a>
+        <a href="mailto:phil@ipbrown.com" class="icon plane">phil@ipbrown.com</a>
+      </div>
+    </article>
+  </div>
+  <script type="text/javascript" src="//use.typekit.net/dys6pcq.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</body>
+</html>
