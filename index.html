@@ -14,11 +14,14 @@
     height: 100%;
   }
   html {
-    background: url(background.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-       -moz-background-size: cover;
-         -o-background-size: cover;
-            background-size: cover;
+    background: #5c6a76;
+    background: -moz-linear-gradient(45deg,  #5c6a76 0%, #2f3843 100%);
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#5c6a76), color-stop(100%,#2f3843));
+    background: -webkit-linear-gradient(45deg,  #5c6a76 0%,#2f3843 100%);
+    background: -o-linear-gradient(45deg,  #5c6a76 0%,#2f3843 100%);
+    background: -ms-linear-gradient(45deg,  #5c6a76 0%,#2f3843 100%);
+    background: linear-gradient(45deg,  #5c6a76 0%,#2f3843 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5c6a76', endColorstr='#2f3843',GradientType=1 );
   }
   .card {
     margin: auto;
@@ -28,33 +31,20 @@
         -ms-transform: translateY(-50%);
             transform: translateY(-50%);
     width: 320px;
-    height: 320px;
-
-  }
-  header {
-    height: 160px;
   }
   .avatar {
     margin: auto;
     display: block;
     width: 75px;
     height: 75px;
-    position: relative;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-            transform: translateY(-50%);
     border: 2px solid #fff;
     -webkit-border-radius: 50%;
        -moz-border-radius: 50%;
             border-radius: 50%;
   }
   article {
-    height: 160px;
-    padding: 20px;
+    height: 100px;
     text-align: center;
-    background-color: #fff;
-    border-bottom: 5px solid #55acee;
   }
   .about {
     position: relative;
@@ -64,11 +54,13 @@
             transform: translateY(-50%);
   }
   h1 {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     font-weight: normal;
     font-family: "proxima-nova",sans-serif;
     font-style: normal;
     font-weight: 700;
+    color: #ededed;
+    text-shadow: rgba(0, 0, 0, 1) 0px 1px 0px;
   }
   p {
     margin-bottom: 15px;
@@ -101,7 +93,7 @@
   }
 </style>
 <head>
-  <title>philip brown &bull; i make stuff on the internets</title>
+  <title>Philip Brown</title>
 </head>
 <body>
   <div class="card">
@@ -110,10 +102,8 @@
     </header>
     <article>
       <div class="about">
-        <h1>philip brown</h1>
-        <p>i make stuff on the internets</p>
+        <h1>Philip Brown</h1>
         <a href="https://twitter.com/philipbrown" class="icon twitter">@philipbrown</a>
-        <a href="mailto:phil@ipbrown.com" class="icon plane">phil@ipbrown.com</a>
       </div>
     </article>
   </div>
