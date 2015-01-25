@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+html {
+  background: #ce1e35;
+}
+
+.card {
+  margin: auto;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 320px;
+}
+
+.avatar {
+  margin: auto;
+  display: block;
+  width: 75px;
+  height: 75px;
+  border: 2px solid #fff;
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+          border-radius: 50%;
+}
+
+article {
+  height: 100px;
+  text-align: center;
+}
+
+.about {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+h1 {
+  margin-bottom: 10px;
+  font-weight: normal;
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  color: #ededed;
+  text-shadow: rgba(0, 0, 0, 1) 0px 1px 0px;
+}
+
+p {
+  margin-bottom: 15px;
+  font-weight: normal;
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.icon {
+  margin: 0 5px;
+}
+
+.twitter {
+  color: #55acee;
+  background: url(twitter.svg) no-repeat center left;
+  background-size: 16px;
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  text-indent: -99999px;
+}
