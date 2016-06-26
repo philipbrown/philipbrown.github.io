@@ -1,0 +1,37 @@
+body {
+  padding: 32px;
+  font-family: courier, monospace;
+  background-color: #222324;
+  color: #bababa;
+  font-size: 14px;
+}
+
+.philip-brown {
+  font-size: 16px;
+  font-weight: normal;
+  text-transform: lowercase;
+}
+
+ul {
+  color: #494b4d;
+  list-style-type: none;
+}
+
+ul > li:before {
+  content: "\2014";
+  position: absolute;
+  margin-left: -22px;
+}
+
+li {
+  margin-bottom: 2px;
+}
+
+a {
+  text-decoration: none;
+  color: #696b6e;
+}
+
+a:hover {
+  color: #1cc3e8; 
+}
